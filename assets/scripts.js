@@ -64,10 +64,13 @@ document.addEventListener("DOMContentLoaded", function(){
         }, 500);
     });
     contactFormPopup.addEventListener("click",(e)=>{
-        if(e.target === contactFormPopup){
-            contactFormPopup.style.display = "none";
+        if (e.target === contactFormPopup) {
+            contactFormPopup.style.animation = 'zoomOut 0.5s forwards';
+            setTimeout(() => {
+                contactFormPopup.style.display = 'none';
+            }, 500);
         }
-    })
+    });
 });
 
 document.addEventListener("DOMContentLoaded", function () {
