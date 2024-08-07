@@ -452,9 +452,6 @@ footer{
     }
 }
 @media screen and (max-width: 480px) {
-    .my-name{
-        font-size: 30px;
-    }
     .cta{
         padding-left: 15px;
         padding-right: 15px;
@@ -480,7 +477,7 @@ footer{
         flex-wrap: wrap;
     }
     .close, .closefeedback {
-        top:100px;
+        top:80px;
         right:180px;
     }
     .contact-form-container {
