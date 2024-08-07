@@ -480,8 +480,8 @@ footer{
         flex-wrap: wrap;
     }
     .close, .closefeedback {
-        top:80px;
-        right:180px;
+        top:60px;
+        right:160px;
     }
     .contact-form-container {
         max-width: 250px;
