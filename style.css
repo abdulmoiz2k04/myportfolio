@@ -453,7 +453,7 @@ footer{
 }
 @media screen and (max-width: 480px) {
     .my-name{
-        font-size: 50px;
+        font-size: 30px;
     }
     .cta{
         padding-left: 15px;
