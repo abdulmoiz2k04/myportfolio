@@ -21,9 +21,9 @@ body {
 }
 .my-name{
     text-align: center;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Poppins';
     font-size: 70px;
-    font-weight: 400;
+    font-weight: bolder;
     color: beige;
     margin-bottom: 10px;
     position: relative;
@@ -391,10 +391,10 @@ h2:hover{
     flex-wrap: wrap;
 }
 .bottomcta-p{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Poppins';
     text-align: center;
-    font-size: 40px;
-    font-weight: normal;
+    font-size: 35px;
+    font-weight: bold;
     padding-left: 100px;
     padding-right: 100px;
     text-transform: uppercase;
@@ -457,7 +457,7 @@ footer{
         padding-right: 15px;
     }
     .bottomcta-p{
-        font-size: 30px;
+        font-size: 25px;
         padding-left: 15px;
         padding-right: 15px;
     }
