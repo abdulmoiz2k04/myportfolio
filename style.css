@@ -22,7 +22,7 @@ body {
 .my-name{
     text-align: center;
     font-family:'Poppins';
-    font-size: 70px;
+    font-size: 8vw;
     font-weight: bolder;
     color: beige;
     margin-bottom: 10px;
@@ -452,6 +452,9 @@ footer{
     }
 }
 @media screen and (max-width: 480px) {
+    .my-name{
+        font-size: 12vw;
+    }
     .cta{
         padding-left: 15px;
         padding-right: 15px;
@@ -462,7 +465,7 @@ footer{
         padding-right: 15px;
     }
     .container{
-        margin:20px 20px 10px 20px;
+        margin:0px 20px 10px 20px;
     }
     .navbar{
         margin:20px 40px 0px 40px;
