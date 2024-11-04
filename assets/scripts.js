@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const lightbox = document.getElementById('lightbox');
     const lightboxImage = document.getElementById('lightbox-image');
     const close = document.querySelector('.close');
+    const body = document.body;
 
     portfolioItems.forEach(item => {
         item.addEventListener('click', function () {
@@ -31,8 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if(link){
                 window.open(link, '_blank') = link.href;
             }else{
-                lightboxImage.src = img.src;
-                lightbox.style.display = 'flex';
+                window.open(img.src, '_blank');
             }
         });
     });
